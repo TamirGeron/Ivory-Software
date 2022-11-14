@@ -1,0 +1,14 @@
+.main-app {
+  display: grid;
+  height: 100%;
+  gap: 40px;
+}
+
+.orgaz-table-container {
+  width: 100%;
+  padding: 0 20px;
+}
+
+.refresh-btn {
+  margin: auto;
+}

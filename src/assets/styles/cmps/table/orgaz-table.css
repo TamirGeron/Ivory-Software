@@ -1,0 +1,40 @@
+.orgaz-table {
+  width: 90%;
+  margin-top: 20px;
+}
+
+.paging {
+  margin: 5px;
+  gap: 10px;
+}
+
+.total-rows {
+  align-self: start;
+}
+
+.text-search {
+  align-self: start;
+  margin-bottom: 10px;
+}
+
+.empty-header {
+  font-size: 24px;
+}
+
+.active-row {
+  background-color: yellow;
+}
+
+.active-col {
+  background-color: ghostwhite;
+  border-spacing: 0;
+}
+
+.active-row .active-col {
+  background-color: beige;
+}
+
+.color-row {
+  background-color: red;
+  color: white;
+}

@@ -1,0 +1,75 @@
+.add-modal-container {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.add-modal {
+  width: 80%;
+  height: 80%;
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  text-align: center;
+  background-color: rgb(14, 195, 240);
+}
+
+.add-modal-layout {
+  margin: 10px;
+  gap: 10px;
+  height: 100%;
+}
+
+.close-modal-btn {
+  border-radius: 5px;
+  align-self: flex-end;
+}
+
+.form-add {
+  gap: 10px;
+  align-items: flex-start;
+  height: 100%;
+}
+
+.label-input-form {
+  display: grid;
+  grid-template-columns: 150px 1fr;
+  text-align: start;
+}
+
+.range {
+  width: 400px;
+  height: 15px;
+  -webkit-appearance: none;
+  background: #111;
+  outline: none;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: inset 0 0 5px rgba(0, 0, 0, 1);
+}
+.range::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background: #00fd0a;
+  cursor: pointer;
+  border: 4px solid #333;
+  box-shadow: -407px 0 0 400px #00fd0a;
+}
+
+.file-img {
+  gap: 10px;
+  align-self: center;
+}
+
+#img {
+  width: 20%;
+}
+
+.submit-form {
+  margin: auto;
+}

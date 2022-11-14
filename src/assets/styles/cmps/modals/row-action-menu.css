@@ -1,0 +1,7 @@
+.row-action-menu {
+  position: absolute;
+  background-color: gainsboro;
+  color: black;
+  border-radius: 10px;
+  padding: 5px;
+}
