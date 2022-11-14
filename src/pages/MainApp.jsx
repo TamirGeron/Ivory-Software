@@ -31,7 +31,7 @@ export const MainApp = () => {
     lastLoginDate: "",
     favoriteFoods: [],
     isAdmin: false,
-    file: "#",
+    file: "",
     rowIdx: "add",
   });
 
